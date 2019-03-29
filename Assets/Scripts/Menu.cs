@@ -7,11 +7,22 @@ public class Menu : MonoBehaviour {
 
     public void StartFirstLevel()
     {
-        SceneManager.LoadScene(1);
+        Debug.Log("LoadSceneA");
+        SceneManager.LoadScene("Test");
+    }
+
+    public void OpenTutorial()
+    {
+
     }
 
     public void LoadMainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
