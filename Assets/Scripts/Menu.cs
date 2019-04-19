@@ -8,12 +8,7 @@ public class Menu : MonoBehaviour {
     public void StartFirstLevel()
     {
         Debug.Log("LoadSceneA");
-        SceneManager.LoadScene("Test");
-    }
-
-    public void OpenTutorial()
-    {
-
+        SceneManager.LoadScene("Level 1");
     }
 
     public void LoadMainMenu()
