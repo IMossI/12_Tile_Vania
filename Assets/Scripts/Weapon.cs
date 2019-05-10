@@ -12,13 +12,14 @@ public class Weapon : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-        Instantiate(bulletPreFab, firePoint.position, firePoint.rotation);
+      //  Instantiate(bulletPreFab, firePoint.position, firePoint.rotation);
 
         if (Input.GetButtonDown("Fire1"))
 
             {
                 Shoot();
         }
+
 	}
     
     void Shoot ()
